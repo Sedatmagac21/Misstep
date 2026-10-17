@@ -102,7 +102,7 @@ The student app is open source and free forever. Revenue comes from the people w
 | Tutor | ₺249 / month | Private tutors: a class of up to 40, weekly class PDF, automatic parent reports |
 | School | ₺15 / student / month | Many classes, install on the school's server, school-wide misconception map |
 
-The landing page includes a **side-income calculator**. For example, a tutor who charges 30 students ₺300 a month for weekly mistake tracking earns ₺9,000 against a ₺249 plan. The pitch and the 3-minute demo script are in [PITCH.md](PITCH.md).
+The landing page includes a **side-income calculator**. For example, a tutor who charges 30 students ₺300 a month for weekly mistake tracking earns ₺9,000 against a ₺249 plan. The pitch and the 3-minute demo script are in [PITCH.md](PITCH.md). The full technical report (models, architecture, verification, RAG, evaluation, limits) is in [docs/TEKNIK-RAPOR.md](docs/TEKNIK-RAPOR.md).
 
 ## Quick start
 ```bash
