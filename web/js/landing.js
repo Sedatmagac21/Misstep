@@ -222,7 +222,7 @@ export async function renderLanding(root) {
 }
 
 // "Side hustle" calculator: what a tutor earns running Misstep-backed weekly follow-ups for paying students.
-const TUTOR_PLAN = 249;
+const TUTOR_PLAN = 499;
 function wireEarn(root) {
   const n = $("#en", root), f = $("#ef", root);
   const tl = (v) => `${v.toLocaleString(getLang() === "en" ? "en-US" : "tr-TR")} ₺`;

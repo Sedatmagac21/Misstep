@@ -91,18 +91,18 @@ A hand-written evaluation set: 43 solutions covering all 13 misconceptions. Run 
 
 Every failing case is listed in the output and on the About page.
 
-## Business model: free for students, a side income for tutors
+## Business model: affordable for students, a side income for tutors
 ![Pricing](assets/screenshot-pricing.png)
 
-The student app is open source and free forever. Revenue comes from the people who use Misstep with paying students. The prices below are planned launch prices; the hackathon build is free.
+The code is open source (MIT). The paid plans cover a ready-to-run install, updates and support. Growth comes from tutors and courses who sell weekly follow-up to their students. The prices below are planned launch prices; everything is open in the hackathon build.
 
 | Plan | Price | For |
 | --- | --- | --- |
-| Student | ₺0 | Unlimited checks, study chat, deep research, practice, Mistake Hunt |
-| Tutor | ₺249 / month | Private tutors: a class of up to 40, weekly class PDF, automatic parent reports |
-| School | ₺15 / student / month | Many classes, install on the school's server, school-wide misconception map |
+| Student | ₺99 / month | Unlimited checks, study chat, deep research, practice, Mistake Hunt; parent panel included |
+| Tutor | ₺499 / month | Private tutors: a class of up to 40, weekly class PDF, automatic parent reports |
+| School / course | ₺39 / student / month | Many classes, install on the school's server, school-wide misconception map |
 
-The landing page includes a **side-income calculator**. For example, a tutor who charges 30 students ₺300 a month for weekly mistake tracking earns ₺9,000 against a ₺249 plan. The pitch and the 3-minute demo script are in [PITCH.md](PITCH.md). The full technical report (models, architecture, verification, RAG, evaluation, limits) is in [docs/TEKNIK-RAPOR.md](docs/TEKNIK-RAPOR.md).
+The landing page includes a **side-income calculator**. For example, a tutor who charges 30 students ₺300 a month for weekly mistake tracking earns ₺9,000 against a ₺499 plan. The pitch and the 3-minute demo script are in [PITCH.md](PITCH.md). The full technical report (models, architecture, verification, RAG, evaluation, limits) is in [docs/TEKNIK-RAPOR.md](docs/TEKNIK-RAPOR.md).
 
 ## Quick start
 ```bash
@@ -164,7 +164,7 @@ samples/               sample study PDFs
 Passwords are stored as salted PBKDF2 hashes in a local SQLite file. No data is sent anywhere.
 
 ## Türkçe özet
-Misstep, 7–10. sınıf cebir için yerel ve açık kaynak bir çalışma arkadaşıdır. Öğrencinin el yazısı çözümünü Gemma 4 ile okur ve SymPy ile her adımı doğrular. İlk hatalı adımı ve arkasındaki yanılgıyı bulur, notlardan kaynaklı açıklama yapar ve o yanılgıya özel doğrulanmış sorular üretir. Konu bazında ilerlemeyi takip eder. Öğretmene sınıf tablosu ve haftalık PDF, veliye çocuk raporu sunar. Öğrenciye ücretsizdir; gelir, özel ders veren öğretmenlerden ve okullardan gelir.
+Misstep, 7–10. sınıf cebir için yerel ve açık kaynak bir çalışma arkadaşıdır. Öğrencinin el yazısı çözümünü Gemma 4 ile okur ve SymPy ile her adımı doğrular. İlk hatalı adımı ve arkasındaki yanılgıyı bulur, notlardan kaynaklı açıklama yapar ve o yanılgıya özel doğrulanmış sorular üretir. Konu bazında ilerlemeyi takip eder. Öğretmene sınıf tablosu ve haftalık PDF, veliye çocuk raporu sunar. Öğrenci paketi 99 ₺/ay (veli dahil), özel öğretmen paketi 499 ₺/ay, okul ve kurs paketi öğrenci başı 39 ₺/ay.
 
 ## License
 MIT. DejaVu fonts are under their own license (`assets/fonts/README.txt`).
